@@ -16,4 +16,4 @@ Here are some ideas to get you started:
 -->
 🔭 My Skills: 
 
-<img src="https://img.icons8.com/color/96/null/kotlin.png"/><img src="https://img.icons8.com/color/96/null/golang.png"/><img src="https://img.icons8.com/color/96/null/java.png"/><img src="https://img.icons8.com/color/96/null/python.png"/>
+<img src="https://img.icons8.com/color/96/null/kotlin.png"/><img src="https://img.icons8.com/color/96/null/golang.png"/><img src="https://img.icons8.com/color/96/null/java.png"/><img src="https://img.icons8.com/color/96/null/html.png"/><img src="https://img.icons8.com/color/96/null/python.png"/><img src="https://img.icons8.com/color/96/null/javascript.png"/><img src="https://img.icons8.com/color/96/null/css.png"/>
