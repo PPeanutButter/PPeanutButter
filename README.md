@@ -1,10 +1,8 @@
+<p id="topic-tag topic-tag-link">kotlin</p>
+
 ### Hi there 👋
 
-<!--
-**PPeanutButter/PpeanutButter** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
+- 🏷️ My programming language：<img src="https://img.shields.io/badge/-Golang-brightgreen"/><br><img src="https://img.shields.io/badge/-Kotlin-brightgreen"/><br><img src="https://img.shields.io/badge/-Python-brightgreen"/>
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
@@ -13,7 +11,5 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
-🔭 My Skills: 
 
-<img src="https://img.icons8.com/color/96/null/kotlin.png"/><img src="https://img.icons8.com/color/96/null/golang.png"/><img src="https://img.icons8.com/color/96/null/java.png"/><img src="https://img.icons8.com/color/96/null/html.png"/><img src="https://img.icons8.com/color/96/null/python.png"/><img src="https://img.icons8.com/color/96/null/javascript.png"/><img src="https://img.icons8.com/color/96/null/css.png"/>
+
