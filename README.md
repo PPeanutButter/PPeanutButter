@@ -1,8 +1,6 @@
-<p id="topic-tag topic-tag-link">kotlin</p>
-
 ### Hi there 👋
 
-- 🏷️ My programming language：<img src="https://img.shields.io/badge/-Golang-brightgreen"/><br><img src="https://img.shields.io/badge/-Kotlin-brightgreen"/><br><img src="https://img.shields.io/badge/-Python-brightgreen"/>
+- 🏷️ My programming language：<img src="https://img.shields.io/badge/-Golang-brightgreen"/> <img src="https://img.shields.io/badge/-Kotlin-brightgreen"/> <img src="https://img.shields.io/badge/-Python-brightgreen"/> <img src="https://img.shields.io/badge/-Java-brightgreen"/> <img src="https://img.shields.io/badge/-HTML—CSS—Javascript-brightgreen"/>
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
