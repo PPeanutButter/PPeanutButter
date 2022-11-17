@@ -24,7 +24,7 @@
        
 ```
 
-![cover](1.png)
+![cover](nas.png)
 
 ## platform
 > 缺失的后续有相关设备了可能会补齐
