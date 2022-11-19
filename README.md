@@ -40,3 +40,7 @@
 |   MediaServer   |      【NAS服务端】使用Python-Flask开发，已经停止维护。       | [~~Github仓库~~](https://github.com/PPeanutButter/MediaServer) |
 |  **MediaServerGo**  |    【NAS服务端】同上，但是使用Golang开发，请使用该版本。     | [Github仓库](https://github.com/PPeanutButter/MediaServerGo) |
 | MediaServerKtor | 【NAS服务端】同上，但是使用Kotlin开发(可以使用很多框架)，用Kotlin-Native应该也有不错的速度 |                            计划外                            |
+
+|     Web      |                             介绍                             |                             链接                             |
+| :-------------: | :---------------------------------------------------------- | :----------------------------------------------------------: |
+|   YAAW   |      【NAS网页】使用Aria2管理远程下载。       | [Github仓库](https://github.com/PPeanutButter/Aria2YAAW) |
