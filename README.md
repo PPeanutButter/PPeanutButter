@@ -33,7 +33,7 @@
 |Android-TV|【NAS客户端】电视上的客户端，使用传统技术开发|[Github仓库](https://github.com/PPeanutButter/MediaClientAndroidTV)|
 | Android-Compose | 【NAS客户端】同上，但是使用Jetpack-Compose、MVVM等技术开发，目前性能稍低。 | [Github仓库](https://github.com/PPeanutButter/MediaClientAndroidCompose) |
 | Universal-Flutter | 【NAS客户端】使用Flutter开发 | 计划中 |
-| Android-Controller | 【NAS管理器】用于管理所有NAS组件的状态，仅限管理员账号。 | 计划中 |
+| Android-Controller | 【NAS管理器】用于管理所有NAS组件的状态，仅限管理员账号。 | [开发中](https://github.com/PPeanutButter/NASControllerAndroid) |
 | Xunlei-Capture | 【NAS插件】提取迅雷云盘下载链接，需要Root权限 | [Github仓库](https://github.com/PPeanutButter/MediaPluginXunlei) |
 
 |     Server      |                             介绍                             |                             链接                             |
