@@ -33,7 +33,7 @@
 |Android-TV|【NAS客户端】电视上的客户端，使用传统技术开发|[Github仓库](https://github.com/PPeanutButter/MediaClientAndroidTV)|
 | Android-Compose | 【NAS客户端】同上，但是使用Jetpack-Compose、MVVM等技术开发，目前性能稍低。 | [Github仓库](https://github.com/PPeanutButter/MediaClientAndroidCompose) |
 | Universal-Flutter | 【NAS客户端】使用Flutter开发 | 计划中 |
-| Android-Controller | 【NAS管理器】用于管理所有NAS组件的状态，仅限管理员账号。 | [开发中](https://github.com/PPeanutButter/NASControllerAndroid) |
+| Android-Controller | 【NAS管理器】用于管理所有NAS组件的状态，已经停止维护(手机不方便操作)。 | [~~Github仓库~~](https://github.com/PPeanutButter/NASControllerAndroid) |
 | Xunlei-Capture | 【NAS插件】提取迅雷云盘下载链接，需要Root权限 | [Github仓库](https://github.com/PPeanutButter/MediaPluginXunlei) |
 
 |     Server      |                             介绍                             |                             链接                             |
@@ -41,6 +41,11 @@
 |   MediaServer   |      【NAS服务端】使用Python-Flask开发，已经停止维护。       | [~~Github仓库~~](https://github.com/PPeanutButter/MediaServer) |
 |  **MediaServerGo**  |    【NAS服务端】同上，但是使用Golang开发，请使用该版本。     | [Github仓库](https://github.com/PPeanutButter/MediaServerGo) |
 | MediaServerKtor | 【NAS服务端】同上，但是使用Kotlin开发(可以使用很多框架)，用Kotlin-Native应该也有不错的速度 |                            计划外                            |
+
+|     Desktop      |                             介绍                             |                             链接                             |
+| :-------------: | :---------------------------------------------------------- | :----------------------------------------------------------: |
+|   NASController   |      【NAS管理器】用于管理所有NAS组件的状态。                 | [开发中](https://github.com/PPeanutButter/MediaServer) |
+
 
 |     Web      |                             介绍                             |                             链接                             |
 | :-------------: | :---------------------------------------------------------- | :----------------------------------------------------------: |
