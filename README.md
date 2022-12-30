@@ -52,3 +52,4 @@
 |     Web      |                             介绍                             |                             链接                             |
 | :-------------: | :---------------------------------------------------------- | :----------------------------------------------------------: |
 |   YAAW   |      【NAS网页】使用Aria2管理远程下载。       | [Github仓库](https://github.com/PPeanutButter/Aria2YAAW) |
+|   MediaClientWeb   |      【NAS客户端】网页版，需要配置到服务端。       | [Github仓库](https://github.com/PPeanutButter/MediaClientWeb) |
