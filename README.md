@@ -46,7 +46,7 @@
 
 |     Desktop      |                             介绍                             |                             链接                             |
 | :-------------: | :---------------------------------------------------------- | :----------------------------------------------------------: |
-|   NASController   |      【NAS管理器】用于管理所有NAS组件的状态。                 | 开发中 |
+|   NASController   |      【NAS管理器】用于管理所有NAS组件的状态。                 | [Github仓库](https://github.com/PPeanutButter/NASControllerDesktop) |
 
 
 |     Web      |                             介绍                             |                             链接                             |
