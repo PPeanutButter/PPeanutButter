@@ -24,33 +24,16 @@
 
 ![cover](nas.png)
 
-## platform
-> 缺失的后续有相关设备了可能会补齐
+## Projects
 
-| Android | 介绍 | 链接 |
-|:---------:|:----|:----:|
-|Android-Legacy|【NAS客户端】手机上客户端，使用传统技术开发|[Github仓库](https://github.com/PPeanutButter/MediaClientAndroid)|
-|Android-TV|【NAS客户端】电视上的客户端，使用传统技术开发|[Github仓库](https://github.com/PPeanutButter/MediaClientAndroidTV)|
-| Android-Compose | 【NAS客户端】同上，但是使用Jetpack-Compose、MVVM等技术开发，目前性能稍低。 | [Github仓库](https://github.com/PPeanutButter/MediaClientAndroidCompose) |
-| Universal-Flutter | 【NAS客户端】使用Flutter开发 | 计划中 |
-| Android-Controller | 【NAS管理器】用于管理所有NAS组件的状态，已经停止维护(手机不方便操作)。 | [~~Github仓库~~](https://github.com/PPeanutButter/NASControllerAndroid) |
-| Xunlei-Capture | 【NAS插件】提取迅雷云盘下载链接，需要Root权限 | [Github仓库](https://github.com/PPeanutButter/MediaPluginXunlei) |
+| 项目名         | 介绍                                                         |                           Android                            |                           Windows                            |                            Linux                            |                             Web                             |
+| -------------- | ------------------------------------------------------------ | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------------------------------------------------------: | :---------------------------------------------------------: |
+| **NAS客户端**  | 用户端的观看软件。                                           | [标准版](https://github.com/PPeanutButter/MediaClientAndroid)</br>[Compose版本](https://github.com/PPeanutButter/MediaClientAndroidCompose)</br>[Android-TV版](https://github.com/PPeanutButter/MediaClientAndroidTV) |                         Flutter版？                          |                         Flutter版？                         | [项目地址](https://github.com/PPeanutButter/MediaClientWeb) |
+| **NAS服务端**  | 作为服务器提供数据。                                         |                              \                               | [~~Python版~~](https://github.com/PPeanutButter/MediaServer)</br>[Golang版](https://github.com/PPeanutButter/MediaServerGo) | [Golang版](https://github.com/PPeanutButter/MediaServerGo)  |                              \                              |
+| **NAS控制器**  | NAS服务端的可视化控制器，管理所有NAS组件的状态。             | [~~项目地址~~](https://github.com/PPeanutButter/NASControllerAndroid) | [项目地址](https://github.com/PPeanutButter/NASControllerDesktop) |                              \                              |                              \                              |
+| **迅雷抓包**   | 提取云盘下载链接并发送到Aria2，需要Root权限。                | [项目地址](https://github.com/PPeanutButter/MediaPluginXunlei) |                              \                               |                              \                              |                              \                              |
+| **转磁力链接** | 将BT文件(目录)、BT下载链接转化为magnet磁力链接               |                              \                               |    [项目地址](https://github.com/PPeanutButter/bt2magnet)    |   [项目地址](https://github.com/PPeanutButter/bt2magnet)    |                              \                              |
+| **转SRT字幕**  | 将ASS特效字幕转化为SRT字幕（非16：9屏幕对ASS不友好）命令行版本，需要服务端与客户端都支持。 | 需NAS[标准版](https://github.com/PPeanutButter/MediaClientAndroid)提供上传文件 | [项目地址](https://github.com/PPeanutButter/MediaPluginA2S)  | [项目地址](https://github.com/PPeanutButter/MediaPluginA2S) |                              \                              |
+| **Aria2**      | 远程下载、离线下载。                                         |                              \                               |          [官方地址](https://github.com/aria2/aria2)          |         [官方地址](https://github.com/aria2/aria2)          |     [YAAW](https://github.com/PPeanutButter/Aria2YAAW)      |
+| **刮削器**     | 媒体信息刮削器，提供给服务端。                               |                              、                              |  [项目地址](https://github.com/PPeanutButter/MediaScraper)   |  [项目地址](https://github.com/PPeanutButter/MediaScraper)  |                              \                              |
 
-|     Server      |                             介绍                             |                             链接                             |
-| :-------------: | :---------------------------------------------------------- | :----------------------------------------------------------: |
-|   MediaServer   |      【NAS服务端】使用Python-Flask开发，已经停止维护。       | [~~Github仓库~~](https://github.com/PPeanutButter/MediaServer) |
-|  **MediaServerGo**  |    【NAS服务端】同上，但是使用Golang开发，请使用该版本。     | [Github仓库](https://github.com/PPeanutButter/MediaServerGo) |
-| MediaServerKtor | 【NAS服务端】同上，但是使用Kotlin开发(可以使用很多框架)，用Kotlin-Native应该也有不错的速度 |               计划外               |
-|  MediaScraper  |    【NAS插件】媒体信息刮削器     | [Github仓库](https://github.com/PPeanutButter/MediaScraper) |
-|  MediaPluginA2S  |    【NAS插件】将ASS特效字幕转化为SRT字幕     | [Github仓库](https://github.com/PPeanutButter/MediaPluginA2S) |
-|  bt2magnet  |    【NAS插件】将BT文件、BT下载链接转化为magnet磁力链接     | [Github仓库](https://github.com/PPeanutButter/bt2magnet) |
-
-|     Desktop      |                             介绍                             |                             链接                             |
-| :-------------: | :---------------------------------------------------------- | :----------------------------------------------------------: |
-|   NASController   |      【NAS管理器】用于管理所有NAS组件的状态。                 | [Github仓库](https://github.com/PPeanutButter/NASControllerDesktop) |
-
-
-|     Web      |                             介绍                             |                             链接                             |
-| :-------------: | :---------------------------------------------------------- | :----------------------------------------------------------: |
-|   YAAW   |      【NAS网页】使用Aria2管理远程下载。       | [Github仓库](https://github.com/PPeanutButter/Aria2YAAW) |
-|   MediaClientWeb   |      【NAS客户端】网页版，需要配置到服务端。       | [Github仓库](https://github.com/PPeanutButter/MediaClientWeb) |
