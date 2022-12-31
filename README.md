@@ -41,8 +41,9 @@
 |   MediaServer   |      【NAS服务端】使用Python-Flask开发，已经停止维护。       | [~~Github仓库~~](https://github.com/PPeanutButter/MediaServer) |
 |  **MediaServerGo**  |    【NAS服务端】同上，但是使用Golang开发，请使用该版本。     | [Github仓库](https://github.com/PPeanutButter/MediaServerGo) |
 | MediaServerKtor | 【NAS服务端】同上，但是使用Kotlin开发(可以使用很多框架)，用Kotlin-Native应该也有不错的速度 |               计划外               |
-|  MediaScraper  |    【NAS套件】媒体信息刮削器     | [Github仓库](https://github.com/PPeanutButter/MediaScraper) |
-|  MediaPluginA2S  |    【NAS套件】将ASS特效字幕转化为SRT字幕     | [Github仓库](https://github.com/PPeanutButter/MediaPluginA2S) |
+|  MediaScraper  |    【NAS插件】媒体信息刮削器     | [Github仓库](https://github.com/PPeanutButter/MediaScraper) |
+|  MediaPluginA2S  |    【NAS插件】将ASS特效字幕转化为SRT字幕     | [Github仓库](https://github.com/PPeanutButter/MediaPluginA2S) |
+|  bt2magnet  |    【NAS插件】将BT文件、BT下载链接转化为magnet磁力链接     | [Github仓库](https://github.com/PPeanutButter/bt2magnet) |
 
 |     Desktop      |                             介绍                             |                             链接                             |
 | :-------------: | :---------------------------------------------------------- | :----------------------------------------------------------: |
