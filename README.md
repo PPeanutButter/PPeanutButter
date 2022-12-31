@@ -25,6 +25,7 @@
 | **转SRT字幕**  | 将ASS特效字幕转化为SRT字幕（非16：9屏幕对ASS不友好）命令行版本，需要服务端与客户端都支持。 | 需NAS[标准版](https://github.com/PPeanutButter/MediaClientAndroid)提供上传文件 | [项目地址](https://github.com/PPeanutButter/MediaPluginA2S)  | [项目地址](https://github.com/PPeanutButter/MediaPluginA2S) |                              \                              |
 | **Aria2**      | 远程下载、离线下载。                                         |                              \                               |          [官方地址](https://github.com/aria2/aria2)          |         [官方地址](https://github.com/aria2/aria2)          |     [YAAW](https://github.com/PPeanutButter/Aria2YAAW)      |
 | **刮削器**     | 媒体信息刮削器，提供给服务端。                               |                              \                              |  [项目地址](https://github.com/PPeanutButter/MediaScraper)   |  [项目地址](https://github.com/PPeanutButter/MediaScraper)  |                              \                              |
+| **批量脚本**     | 批量下载Bt、批量下载字幕                               |                              \                              |  \   |    |                              [某猴子脚本](https://github.com/PPeanutButter/peanutjs/tree/main/Javascript)                              |
 
 ### Hi there 👋
 
