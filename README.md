@@ -1,13 +1,4 @@
-### Hi there 👋
-
-- 🏷️ My programming language：<img src="https://img.shields.io/badge/-Golang-brightgreen"/> <img src="https://img.shields.io/badge/-Kotlin-brightgreen"/> <img src="https://img.shields.io/badge/-Python-brightgreen"/> <img src="https://img.shields.io/badge/-Java-brightgreen"/> <img src="https://img.shields.io/badge/-HTML—CSS—Javascript-brightgreen"/>
-- 🔭 I’m currently working on: <img src="https://img.shields.io/badge/-AndroidDevelopment-brightgreen"/>
-- 🌱 I’m currently learning: <img src="https://img.shields.io/badge/-Golang-brightgreen"/>
-- 👯 I’m looking to collaborate on: <img src="https://img.shields.io/badge/-AndroidDevelopment-brightgreen"/>
-- 🤔 I’m looking for help with: <img src="https://img.shields.io/badge/-IOS-brightgreen"/>
-- 📫 How to reach me: <img src="https://img.shields.io/badge/-panrunqiu@outlook.com-brightgreen"/>
-- ⚡ Fun fact: <img src="https://img.shields.io/badge/-NAS-brightgreen"/> <img src="https://img.shields.io/badge/-HomeMedia-brightgreen"/>
-
+![cover](nas.png)
 
 ```
                                                   __                                          
@@ -22,8 +13,6 @@
        
 ```
 
-![cover](nas.png)
-
 ## Projects
 
 | 项目名         | 介绍                                                         |                           Android                            |                           Windows                            |                            Linux                            |                             Web                             |
@@ -37,3 +26,12 @@
 | **Aria2**      | 远程下载、离线下载。                                         |                              \                               |          [官方地址](https://github.com/aria2/aria2)          |         [官方地址](https://github.com/aria2/aria2)          |     [YAAW](https://github.com/PPeanutButter/Aria2YAAW)      |
 | **刮削器**     | 媒体信息刮削器，提供给服务端。                               |                              \                              |  [项目地址](https://github.com/PPeanutButter/MediaScraper)   |  [项目地址](https://github.com/PPeanutButter/MediaScraper)  |                              \                              |
 
+### Hi there 👋
+
+- 🏷️ My programming language：<img src="https://img.shields.io/badge/-Golang-brightgreen"/> <img src="https://img.shields.io/badge/-Kotlin-brightgreen"/> <img src="https://img.shields.io/badge/-Python-brightgreen"/> <img src="https://img.shields.io/badge/-Java-brightgreen"/> <img src="https://img.shields.io/badge/-HTML—CSS—Javascript-brightgreen"/>
+- 🔭 I’m currently working on: <img src="https://img.shields.io/badge/-AndroidDevelopment-brightgreen"/>
+- 🌱 I’m currently learning: <img src="https://img.shields.io/badge/-Golang-brightgreen"/>
+- 👯 I’m looking to collaborate on: <img src="https://img.shields.io/badge/-AndroidDevelopment-brightgreen"/>
+- 🤔 I’m looking for help with: <img src="https://img.shields.io/badge/-IOS-brightgreen"/>
+- 📫 How to reach me: <img src="https://img.shields.io/badge/-panrunqiu@outlook.com-brightgreen"/>
+- ⚡ Fun fact: <img src="https://img.shields.io/badge/-NAS-brightgreen"/> <img src="https://img.shields.io/badge/-HomeMedia-brightgreen"/>
