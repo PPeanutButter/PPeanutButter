@@ -1,6 +1,5 @@
-![cover](nas.png)
-![server](61DZJYyXKRL._SL1000_.jpg)
-![Android Client](android.png)
+# Hi there 👋 
+
 ```
                                                   __                                          
                                                  /\ \__                                       
@@ -12,29 +11,58 @@
        \ \_\                                                                                  
         \/_/                                                       Created.2021.7.31 by 花生酱啊
        
+:( 这是个人使用[golang、kotlin、java、html、python、cpp、js]纯手写的NAS系统（应用程序），目前经历了三次重构；为什么不用黑群晖、飞牛OS？问就是兴趣。
 ```
 
-## Projects
+💻 **Full-Stack Developer** /  📺 **NAS 爱好者** / 🔨 **纯技术宅（软硬件、破解&刷机）**
 
-| 项目名         | 介绍                                                         |                           Android                            |                           Windows                            |                            Linux                            |                             Web                             |
-| -------------- | ------------------------------------------------------------ | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------------------------------------------------------: | :---------------------------------------------------------: |
-| **NAS客户端**  | 用户端的观看软件。                                           | [标准版](https://github.com/PPeanutButter/MediaClientAndroid)</br>[Compose版本](https://github.com/PPeanutButter/MediaClientAndroidCompose)</br>[Android-TV版](https://github.com/PPeanutButter/MediaClientAndroidTV) |                         [Compose版本](https://github.com/PPeanutButter/MediaClientDesktop)                          |                         [Compose版本](https://github.com/PPeanutButter/MediaClientDesktop)                         | [项目地址](https://github.com/PPeanutButter/MediaClientWeb) |
-| **NAS服务端**  | 作为服务器提供数据。                                         |                              \                               | [Golang版](https://github.com/PPeanutButter/MediaServerGo) | [~~Python版~~](https://github.com/PPeanutButter/MediaServer)</br>[Golang版](https://github.com/PPeanutButter/MediaServerGo)  |                              \                              |
-| **NAS控制器**  | NAS服务端的可视化控制器，管理所有NAS组件的状态。             | [~~项目地址~~](https://github.com/PPeanutButter/NASControllerAndroid) | [项目地址](https://github.com/PPeanutButter/NASControllerDesktop) |                              \                              |                              \                              |
-| **迅雷抓包**   | 提取云盘下载链接并发送到Aria2，需要Root权限。                | [项目地址](https://github.com/PPeanutButter/MediaPluginXunlei) |                              \                               |                              \                              |                              \                              |
-| **转磁力链接** | 将BT文件(目录)、BT下载链接转化为magnet磁力链接               |                              \                               |    [项目地址](https://github.com/PPeanutButter/bt2magnet)    |   [项目地址](https://github.com/PPeanutButter/bt2magnet)    |                              \                              |
-| **转SRT字幕**  | 将ASS特效字幕转化为SRT字幕（非16：9屏幕对ASS不友好）命令行版本，需要服务端与客户端都支持。 | 需NAS[标准版](https://github.com/PPeanutButter/MediaClientAndroid)提供上传文件 | [项目地址](https://github.com/PPeanutButter/MediaPluginA2S)  | [项目地址](https://github.com/PPeanutButter/MediaPluginA2S) |                              \                              |
-| **Aria2**      | 远程下载、离线下载。                                         |                              \                               |          [官方地址](https://github.com/aria2/aria2)          |         [官方地址](https://github.com/aria2/aria2)          |     [YAAW](https://github.com/PPeanutButter/Aria2YAAW)      |
-| **Aria4**      | 解决Aria2单核运行的问题，使用Golang。|                              \                               |          [非开源]          |         [非开源]          |     [非开源]      |
-| **刮削器**     | 媒体信息刮削器，提供给服务端。                               |                              \                              |  [项目地址](https://github.com/PPeanutButter/MediaScraper)   |  [项目地址](https://github.com/PPeanutButter/MediaScraper)  |                              \                              |
-| **批量脚本**     | 批量下载Bt、批量下载字幕                               |                              \                              |  \   |    |                              [某猴子脚本](https://github.com/PPeanutButter/peanutjs/tree/main/Javascript)                              |
+## Peanut-NAS
 
-### Hi there 👋
+> 一个跨平台的提供NAS服务的软件，可以运行在任何支持Debian、MacOS&Windows操作系统的设备上，当然包括Arm架构。
+>
 
-- 🏷️ My programming language：<img src="https://img.shields.io/badge/-Golang-brightgreen"/> <img src="https://img.shields.io/badge/-Kotlin-brightgreen"/> <img src="https://img.shields.io/badge/-Python-brightgreen"/> <img src="https://img.shields.io/badge/-Java-brightgreen"/> <img src="https://img.shields.io/badge/-HTML—CSS—Javascript-brightgreen"/>
-- 🔭 I’m currently working on: <img src="https://img.shields.io/badge/-AndroidDevelopment-brightgreen"/>
-- 🌱 I’m currently learning: <img src="https://img.shields.io/badge/-Golang-brightgreen"/>
-- 👯 I’m looking to collaborate on: <img src="https://img.shields.io/badge/-AndroidDevelopment-brightgreen"/>
-- 🤔 I’m looking for help with: <img src="https://img.shields.io/badge/-IOS-brightgreen"/>
-- 📫 How to reach me: <img src="https://img.shields.io/badge/-panrunqiu@outlook.com-brightgreen"/>
-- ⚡ Fun fact: <img src="https://img.shields.io/badge/-NAS-brightgreen"/> <img src="https://img.shields.io/badge/-HomeMedia-brightgreen"/>
+### Overview
+
+> 本页面尽量不涉及任何技术层面的东西，就写一下有什么，是干什么用的。大概有哪些总览可以在[这里](old_projects.md)中看到，虽然大部分功能经过迭代后都取消了开源。
+
+### 服务端
+
+> NAS系统的核心支持，通常是链接硬盘的电脑，是NAS的主要硬件。
+
+​	我的最开始的主机是一台树莓派（也可以是闲置的Windows、Mac电脑，甚至是闲置的旧Android手机）和限制的硬盘，现在形态如下：
+
+![树莓派4B-8GB版](img/rasp4b.png)
+<center>[Fig.]树莓派4B-8GB版（~700元）+ 塔式RGB散热器（~100元）+ 4 * SATA 2.5寸硬盘</center>
+
+​	服务端目前主要提供两大类功能，建议将两者部署在不同的机器上：
+
+1. **流媒体服务**
+
+2. **相册、重要文件备份功能**：推荐磁盘整列方案
+
+​	流媒体服务最开始就类似于一个文件服务器，是跑在我的旧Android手机上的，流媒体资源也由Android手机上安装的BT软件下载。相册服务是后面有相关需求补上的，也是在这个时候，服务端程序经历了最近的一次重构。
+
+​	总的来说，这部分其实全是代码，没有多少能说的，详细的介绍会写在[这里](go_server.md)。
+
+#### 插曲1-将电视盒子刷Linux运行NAS
+
+> 2024年无意中翻出了电信送的电视盒子，发现是Android系统的，于是研究了刷机的可能性。
+
+​	电视盒子的SoC是晶晨S905L3B（4核A55），一番搜索找到了网友制作的破解的固件包，接下来是按照教程将机器拆开，短接两个触点链接电脑刷机即可：
+
+![img_v3_02fm_0fa79772-210c-4147-a2e9-1c999ba0c37g](/Users/panrunqiu/Library/Application Support/LarkShell/sdk_storage/8c5d202c0d8da4415abcf22158275e14/resources/images/img_v3_02fm_0fa79772-210c-4147-a2e9-1c999ba0c37g.jpg)
+<center>[Fig.]电视盒子（~0元）</center>
+
+​	刷入固件后就是原生安卓系统了，但是发现没有开启ADB，并且读取U盘有点问题。其实现在就可以作为一个简单的Android电视盒子使用了，但是感觉还是有点鸡肋，于是有了下面刷Linux的研究。
+
+​	对网络上的 `.img` 固件解包，发现就是Android的固件格式。解包后我放入了MT管理器、Termux，顺便整合了原生Android TV 系统启动器，打包后再刷入就可以执行命令了（这里不用这么麻烦，应该可以用FTP下载软件安装）。体验了一下原生的Google TV之后，就准备刷Linux了。将[大佬](https://github.com/ophub/amlogic-s9xxx-armbian)提供Armbian固件写入U盘，在盒子上执行`reboot update`，重启之后就进入了U盘中的Linux（太强了），到此刷机就完成了，参照仓库里面的教程将Linux写入盒子闪存和初始化即可。
+
+​	经测试，盒子运行我的NAS根本跑不满，性能完全足够，只是搭载了百兆网口和USB 2.0差点意思。连了两个硬盘组RAID后，作为相册和重要文件服务器了。
+
+## Work Experience
+
+- **Jun 2023 - Present :** Android Developer / Open to new opportunities.
+
+## Connect
+
+- 📧 panrunqiu@outlook.com
