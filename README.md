@@ -29,7 +29,7 @@
 
 > NAS系统的核心支持，通常是链接硬盘的电脑，是NAS的主要硬件。
 
-​	我的最开始的主机是一台树莓派（也可以是闲置的Windows、Mac电脑，甚至是闲置的旧Android手机）和限制的硬盘，现在形态如下：
+​    我的最开始的主机是一台树莓派（也可以是闲置的Windows、Mac电脑，甚至是闲置的旧Android手机）和限制的硬盘，现在形态如下：
 
 ![树莓派4B-8GB版](img/rasp4b.png)
 <center>[Fig.]树莓派4B-8GB版（~700元）+ 塔式RGB散热器（~100元）+ 4 * SATA 2.5寸硬盘</center>
@@ -50,8 +50,8 @@
 
 ​	电视盒子的SoC是晶晨S905L3B（4核A55），一番搜索找到了网友制作的破解的固件包，接下来是按照教程将机器拆开，短接两个触点链接电脑刷机即可：
 
-![img_v3_02fm_0fa79772-210c-4147-a2e9-1c999ba0c37g](/Users/panrunqiu/Library/Application Support/LarkShell/sdk_storage/8c5d202c0d8da4415abcf22158275e14/resources/images/img_v3_02fm_0fa79772-210c-4147-a2e9-1c999ba0c37g.jpg)
-<center>[Fig.]电视盒子（~0元）</center>
+![电视盒子](img/ty1613.jpeg)
+<div style="text-align: center;">[Fig.]电视盒子（~0元）</div>
 
 ​	刷入固件后就是原生安卓系统了，但是发现没有开启ADB，并且读取U盘有点问题。其实现在就可以作为一个简单的Android电视盒子使用了，但是感觉还是有点鸡肋，于是有了下面刷Linux的研究。
 
