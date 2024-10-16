@@ -61,7 +61,7 @@
 
 　　经测试，盒子运行我的NAS根本跑不满，性能完全足够，只是搭载了百兆网口和USB 2.0差点意思。连了两个硬盘组RAID后，作为相册和重要文件服务器了。
 
-## Work Experience
+## :octocat: Work Experience
 
 - **Jun 2023 - Present :** Android Developer / Open to new opportunities.
 
